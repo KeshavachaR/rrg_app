@@ -13,7 +13,6 @@ A Streamlit-based interactive tool for generating Relative Rotation Graphs (RRG)
 - Calculate relative strength ratio and momentum.
 - Display an animated, interactive RRG chart.
 
----
 
 ## Project Structure
 
@@ -26,10 +25,6 @@ A Streamlit-based interactive tool for generating Relative Rotation Graphs (RRG)
 ├── requirements.txt # Python dependencies
 └── README.md # This file
 
-yaml
-Copy code
-
----
 
 ## Installation
 
@@ -84,3 +79,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contributions
 Contributions are welcome! Feel free to fork the repo and submit pull requests.
+
