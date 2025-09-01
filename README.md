@@ -2,8 +2,6 @@
 
 A Streamlit-based interactive tool for generating Relative Rotation Graphs (RRG), which help visualize the relative strength and momentum of multiple stocks or assets compared to a benchmark.
 
----
-
 ## Features
 
 - Input a list of tickers and a benchmark ticker (default: SPY).
@@ -13,21 +11,7 @@ A Streamlit-based interactive tool for generating Relative Rotation Graphs (RRG)
 - Calculate relative strength ratio and momentum.
 - Display an animated, interactive RRG chart.
 
-
-## Project Structure
-
-├── app.py # Main Streamlit app script and UI logic
-├── config.py # Configuration constants like baseline
-├── data.py # Functions for downloading ticker price data
-├── rrg_math.py # Calculation of RS ratio and momentum metrics
-├── plotting.py # Plotly-based RRG chart creation
-├── ui_components.py # Streamlit UI controls (inputs, sliders, dropdowns)
-├── requirements.txt # Python dependencies
-└── README.md # This file
-
-
 ## Installation
-
 1. Clone the repository:
 
 git clone https://github.com/KeshavachaR/rrg_app.git
@@ -79,4 +63,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contributions
 Contributions are welcome! Feel free to fork the repo and submit pull requests.
+
 
