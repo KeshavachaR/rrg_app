@@ -12,9 +12,11 @@ A Streamlit-based interactive tool for generating Relative Rotation Graphs (RRG)
 - Display an animated, interactive RRG chart.
 
 ## Installation
+
 1. Clone the repository:
 
 git clone https://github.com/KeshavachaR/rrg_app.git
+
 cd rrg_app
 
 ## Set up a virtual environment:
@@ -22,21 +24,27 @@ cd rrg_app
 Windows:
 
 python -m venv .venv
+
 .venv\Scripts\activate
 
 macOS/Linux
+
 python3 -m venv .venv
+
 source .venv/bin/activate
 
 ## Install required packages:
+
 pip install -r requirements.txt
 
 ## Usage
 
 Run the Streamlit app:
+
 streamlit run app.py
 
 ## How to use the app interface:
+
 Tickers: Enter one or more stock tickers separated by commas.
 
 Benchmark: Enter the benchmark ticker symbol (default is SPY).
@@ -59,9 +67,12 @@ yfinance or equivalent for ticker data download (assumed inside data.py)
 Check requirements.txt for full list.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contributions
+
 Contributions are welcome! Feel free to fork the repo and submit pull requests.
+
 
 
